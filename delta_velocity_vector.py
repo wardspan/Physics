@@ -12,7 +12,7 @@ v_add = v1 + v2
 v_sub = v1 - v2
 
 # Create a figure and axis
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 6))
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 6))0ug
 
 # Plotting the vector addition
 ax1.quiver(0, 0, v1[0], v1[1], angles='xy', scale_units='xy', scale=1, color='r', label='v1')

@@ -13,7 +13,7 @@ ax.set_ylim(-10, 10)
 # Adding labels and title
 ax.set_xlabel('x (km)')
 ax.set_ylabel('y (km)')
-ax.set_title('Displacement Vector')
+ax.set_title('Displacement Vector with ∆x = -70 km')
 
 # Adding grid
 ax.grid(True)
@@ -28,3 +28,4 @@ plt.text(-70, 0.5, '(-70, 0)', fontsize=12, ha='center')
 plt.axhline(0, color='black',linewidth=0.5)
 plt.axvline(0, color='black',linewidth=0.5)
 plt.show()
+
